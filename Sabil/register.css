@@ -1,0 +1,39 @@
+h1{
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  color: #8B4513;
+}
+/*css design for the body*/
+body{
+  background-image: url(https://images.unsplash.com/photo-1501349800519-48093d60bde0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size:cover;
+  background-color: #EEEEEE;
+}
+/*Normal css design for form's format*/
+form{
+  text-align:left;
+  margin: 10px auto;
+  width: 320px;
+  color: #4B0082;
+}
+/*Format and design for the given data in form*/
+input[type="text"],[type="Address"],[type="email"],[type="number"],[type="date"]{
+  width:150px;
+  height:25px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 15px;
+  padding: 3px;
+  font-size: inherit;
+  font-style:italic;
+  background-color:#F0F8FF;
+}
+/*css for the buttons*/
+input[type="submit"][type="reset"]{
+  width:150px;
+  height:25px;
+}

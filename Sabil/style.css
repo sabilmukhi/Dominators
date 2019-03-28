@@ -1,0 +1,38 @@
+/*css style for title of form*/
+h1{
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  color: #8B4513;
+/*design for body and background*/
+}
+body{
+  background-image: url(https://images.unsplash.com/photo-1501349800519-48093d60bde0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color: #EEEEEE;
+/*css for alignment of ofrm*/
+}
+form{
+  text-align:left;
+  margin: 10px auto;
+  width: 320px;
+  color: #4B0082;
+/*css for all inputs in form*/
+}
+input[type="text"],[type="Address"],[type="email"],[type="number"],[type="date"],[type="color"],[tupe="file"],[type="image"],[type="time"][type="password"],[type="hidden"]{
+  width:150px;
+  height:25px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 15px;
+  padding: 3px;
+  font-size: inherit;
+  font-style:italic;
+  background-color:#F0F8FF;
+/*css for the buttons coded as type*/
+}
+input[type="submit"][type="reset"]{
+  width:150px;
+  height:25px;
+}
