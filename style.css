@@ -35,4 +35,5 @@ input[type="text"],[type="Address"],[type="email"],[type="number"],[type="date"]
 input[type="submit"][type="reset"]{
   width:150px;
   height:25px;
+  
 }
