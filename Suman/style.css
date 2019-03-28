@@ -1,0 +1,41 @@
+body {
+  background-color:#A43820; }
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color:#46211A;
+}
+form{
+  margin:0 auto;
+  width: 320px;
+  color: steelblue;
+}
+input{
+  padding:5px;
+  font-size:15px;
+}
+input[type="text"] {
+  margin-bottom:25px;
+  width:100%;
+  border:2px solid #46211A;
+}
+select{
+  padding:5px;
+  font-size: 15px;
+  border:2px solid #46211A;
+
+}
+input[type="number"] {
+  margin: 15px;
+  width: 180px;
+  border:2px solid #46211A;
+}
+
+input[type="date"]{
+  margin: 3px;
+  width: 90px;
+  border:2px solid #46211A;
+}
+input[type="submit"]{
+  border:2px solid #46211A
+}

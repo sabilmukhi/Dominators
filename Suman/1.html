@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title> Registration form </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+  <h1> Registration Form </h1>
+  <form>
+    <label> First Name :</label>
+    <input type="text" placeholder="Enter your First Name">
+    <label> Last Name :</label>
+    <input type="text" placeholder="Enter your Last Name">
+    <label> E-mail :</label>
+    <input type="text" placeholder="Enter your Email address">
+    <label> Address :</label>
+    <input type="text" placeholder="Enter your Address">
+    <label> Phone Number </label><br>
+    <select>
+      <option>+61</option>
+      <option>+977</option>
+      <option>+144</option>
+    </select>
+    <input type="number" placeholder="Enter your contact number"><br>
+    <label> Date of Birth </label><br>
+    <input type="date" id="send" oninput="result.value = send.value"><br><br>
+    <label> Gender<br>
+      <select>
+        <option>MALE</option>
+        <option>FEMALE</option>
+        <option>OTHER</option>
+      </select><br><br><br>
+    <input type="submit" name="Submit" value="Submit">
+
+  </form>
+</body>
+</html>
