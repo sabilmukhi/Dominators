@@ -19,6 +19,7 @@ form{
   margin: 10px auto;
   width: 320px;
   color: #4B0082;
+  font-size:20px;
 }
 /*Format and design for the given data in form*/
 input[type="text"],[type="Address"],[type="email"],[type="number"],[type="date"]{
