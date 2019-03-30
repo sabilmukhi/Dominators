@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+   <title>FORM</title>
+   <link rel="stylesheet" href="stylesheet.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<form>
+
+  <h1><u>Registration Form</u></h1>
+  <p><b>All given data must be filled-up.</b></p>
+
+    <label><b>First Name:</b></label>
+    <input type="text" name="name" placeholder="first_name" id="Name" required="">
+
+    <label><b>Last Name:</b></label>
+    <input type="text" name="name" placeholder="last_name" id="name" required="">
+
+    <label><b>Address</b></label>
+    <input type="text" name="Address" placeholder="Address" id="Address">
+
+    <label><b>E-mail:</b></label>
+    <input type="email" name="email" placeholder="e-mail" id="email" required="">
+
+    <label><b>Telephone Number</b></label><br>
+     <select>
+       <option>+61(AUS)</option>
+       <option>+977(NEP)</option>
+       <option>+91(IND)</option>
+       <option>+880(BAN)</option>
+       <option>+1(USA)</option>
+       <option>+92(PAK)</option>
+       <option>+44(UK)</option>
+     </select>
+    <input type="number" placeholder="000-000-000" required><br>
+
+    <label><b>Birthdate</b></label>
+    <input type="date" required="">
+
+    <label><b>Gender</b></label><br>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other<br><br>
+
+  <div>
+      <input id="verified" type="checkbox" name="verified"><i>I approve that all the given data is correct.</i><br>
+  </div>
+
+  <div>
+    <p>By creating an account you agree to our <a herf="#"><u>Tearms& Privacy</u></a>.<p>
+    <button type="submit" class="registerbtn">Submit</button><br>
+    <button type="submit" class="registerbtn">cancel</button><br>
+  </div>
+
+</form>
+
+</body>
+
+</html>

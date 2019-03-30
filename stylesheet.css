@@ -1,0 +1,64 @@
+/*css style for title of form*/
+h1{
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  color: #F5F5F5;
+/*design for body and background*/
+}
+body{
+  background-image: url(https://3.bp.blogspot.com/-XCiGdNYR19g/WLTU3Kbp-qI/AAAAAAAABMM/5UzFL9G-P3YjXyZ7erMdiiFAUdiYZvo7QCLcB/s1600/black_background_wood-wallpaper-1280x768.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size:cover;
+/*css for alignment of ofrm*/
+}
+form{
+  text-align:left;
+  margin: 10px auto;
+  width: 380px;
+  color: #00FF7F	;
+  font-size:20px;
+/*css for all inputs in form*/
+}
+input[type="text"],[type="Address"],[type="email"],[type="Birthdate"]{
+  width:170px;
+  height:25px;
+  margin-bottom: 8px;
+  width: 100%;
+  font-size: 12px;
+  padding: 2px;
+  font-size: inherit;
+  font-style:italic;
+  background-color:#F0FFF8;
+}
+input[type="number"]{
+  width: 270px;
+  height: 22px;
+  padding:2px;
+  font-size: 12px;
+  font-style: italic;
+  background-color:#F0FFF8;
+/*radio button design*/
+}
+button[type="radio"]{
+  font-size: 10px;
+}
+select{
+  width: 90px;
+  padding: 5px;
+  font-size: 12px;
+  background-color:#F0FFF8;
+}
+/*css for buttons*/
+.registerbtn {
+  align-items:center;
+  width: 270px;
+  color: white;
+  margin: 8px 0;
+  padding: 16px 20px;
+  border: 1px;
+  background-color:#0000FF;
+  border-style: solid;
+  }
