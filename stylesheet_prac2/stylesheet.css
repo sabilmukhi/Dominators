@@ -22,7 +22,7 @@ form{
   font-size:20px;
 /*css for all inputs in form*/
 }
-input[type="text"],[type="Address"],[type="email"],[type="Birthdate"]{
+input[type="text"],[type="Address"],[type="email"],[type="date"]{
   width:170px;
   height:25px;
   margin-bottom: 8px;
